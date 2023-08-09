@@ -1,0 +1,145 @@
+.loginpage{
+    display: flex;
+    flex-direction: column;
+    padding: 80px 10px;
+    align-items: center;
+    gap: 40px;
+    position: relative;
+}
+.loginpageTitle{
+    color: rgb(84, 105, 212);
+    font-size: 40px;
+}
+.loginpageForm{
+    padding: 60px 40px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    width: 100%;
+    max-width: 450px;
+    z-index: 1;
+    background-color: #fff;
+}
+.loginpageForm .loginpageInput{
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.loginpageCheck{
+    display: flex;
+    gap: 15px;
+}
+.loginpageForm p{
+    font-size: 16px;
+    font-weight: bold;
+}
+.loginpageForm span{
+    display: block;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.loginpageBtn{
+    display: block;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 5px;
+    background: rgb(84, 105, 212);
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+
+
+.slide-1 {
+    width: 450px;
+    height: 70px;
+    background-color: rgb(84, 105, 212);
+    animation: slideRightLeft1 2s linear infinite;
+    position: absolute;
+    top: 200px;
+    z-index: -1;
+}
+@keyframes slideRightLeft1 {
+    0% {
+      left: 0px;
+    }
+    50% {
+      left: calc(100% - 450px);
+    }
+    100% {
+      left: 0px;
+    }
+}
+
+.slide-2 {
+    width: 280px;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #ddd;
+    animation: slideRightLeft2 2s ease-in infinite;
+    position: absolute;
+    top: 270px;
+    z-index: -1;
+}
+@keyframes slideRightLeft2 {
+    0% {
+      right: 0;
+    }
+    50% {
+      right: calc(100% - 280px);
+    }
+    100% {
+      right: 0;
+    }
+}
+
+.slide-3 {
+    width: 300px;
+    height: 70px;
+    background-color: rgb(84, 105, 212);
+    border: 2px solid #ddd;
+    animation: slideRightLeft3 2s ease-in infinite;
+    position: absolute;
+    top: 340px;
+    z-index: -1;
+}
+@keyframes slideRightLeft3 {
+    0% {
+      left: 0;
+    }
+    50% {
+      left: calc(100% - 300px);
+    }
+    100% {
+      left: 0;
+    }
+}
+
+.slide-4 {
+    width: 250px;
+    height: 70px;
+    background-color: rgb(196, 211, 224);
+    border: 2px solid #ddd;
+    animation: slideRightLeft4 2s linear infinite;
+    position: absolute;
+    top: 410px;
+    z-index: -1;
+}
+@keyframes slideRightLeft4 {
+    0% {
+      right: 0;
+    }
+    50% {
+      right: calc(100% - 250px);
+    }
+    100% {
+      right: 0;
+    }
+}
+  

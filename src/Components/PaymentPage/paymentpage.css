@@ -1,0 +1,100 @@
+.paymentPage{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 10px;
+    height: auto;
+}
+.paymentTop{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    height: auto;
+    background: #fff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 40px;
+}
+.paymentTop p{
+    font-size: 24px;
+    font-weight: 600;
+}
+.fee__check,
+.selectCourse,
+.selectStudent,
+.cardName{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+    margin-top: 40px;
+}
+.fee__check div,
+.selectCourse div,
+.selectStudent div,
+.cardName div{
+    width: 100%;
+}
+.paymentTop input,
+.paymentTop select{
+    display: block;
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+    margin-top: 15px;
+    border-radius: 7px;
+    font-size: 18px;
+}
+.enterBtn{
+    margin-top: 20px;
+    margin-left: auto;
+}
+.enterBtn button,
+.enterBtn a{
+    display: block;
+    padding: 10px 12px;
+    color: #fff;
+    background: green;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.paymentBottom{
+    overflow-x: scroll;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    height: auto;
+    background: #fff;
+    border-radius: 5px;
+    margin-top: 60px;
+}
+.paymentTitles{
+    background-color: #212529;
+    width: 100%;
+    color: white;
+    border: 0;
+}
+.paymentTitles th{
+    padding: 8px;
+    border: 1px solid #212529;
+}
+td{
+    padding: 8px;
+    text-align: center;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+table a{
+    color: white;
+    background-color: orange;
+    padding: 10px;
+    display: block;
+    border-radius: 7px;
+    width: fit-content;
+    margin: 0 auto;
+}
+.paymentCheckImg{
+    width: 80px;
+    height: 80px;
+}

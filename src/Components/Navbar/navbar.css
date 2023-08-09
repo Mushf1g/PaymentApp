@@ -1,0 +1,55 @@
+.navbarpage{
+    background-color: rgb(33, 37, 41);
+}
+.header{
+    padding: 16px 10px;
+    background-color: rgb(33, 37, 41);
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.IngressImg,
+.IngressImg img{
+    width: 100px;
+    height: 80px;
+}
+
+.headerStart{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.nav{
+    display: flex;
+    column-gap: 10px;
+    row-gap: 15px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.nav a{
+    color: white;
+    font-size: 20px;
+}
+
+.headerEnd{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 15px;
+    row-gap: 15px;
+}
+.headerEnd input{
+    padding: 8px 12px;
+    border-radius: 7px;
+    font-size: 15px;
+}
+.headerEnd a{
+    color: black;
+    background-color: orange;
+    padding: 8px 12px;
+    border-radius: 7px;
+}

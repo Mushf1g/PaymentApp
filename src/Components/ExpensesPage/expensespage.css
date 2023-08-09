@@ -1,0 +1,21 @@
+.expensesPage{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 30px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    margin-top: 40px;
+}
+.expensesPage input,
+.expensesPage select{
+    display: block;
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+    margin-top: 15px;
+    border-radius: 7px;
+    font-size: 18px;
+}
+.expensesPage p{
+    font-size: 24px;
+    font-weight: 600;
+}

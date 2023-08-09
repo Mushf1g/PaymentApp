@@ -1,0 +1,58 @@
+.studentsPage{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 10px;
+    height: auto;
+}
+.studentsTop{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    height: auto;
+    background: #fff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 40px;
+}
+.studentsTop p{
+    font-size: 24px;
+    font-weight: 600;
+}
+.studentsTop input,
+.studentsTop select{
+    display: block;
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+    margin-top: 15px;
+    border-radius: 7px;
+    font-size: 18px;
+}
+
+.studentsBottom{
+    margin-top: 50px;
+    overflow-x: scroll;
+}
+.studentsBottom table{
+    overflow-x: scroll;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    height: auto;
+    background: #fff;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.studentsBottom thead{
+    background-color: #212529;
+    width: 100%;
+    color: white;
+    border: 0;
+}
+.studentsBottom th,
+.studentsBottom td{
+    padding: 8px;
+}
+.enterBtn{
+    display: flex;
+    gap: 20px;
+}
